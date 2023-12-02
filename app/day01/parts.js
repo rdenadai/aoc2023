@@ -1,11 +1,6 @@
-const readFile = require("../support/utils");
+const { readFile, strToInt } = require("../support/utils");
 
 const NUMBERS = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
-
-const strToInt = (num) => {
-  const n = Number(num);
-  return isNaN(n) ? 0 : n;
-};
 
 const main = () => {
   return readFile("day01/input.txt")

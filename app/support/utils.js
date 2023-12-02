@@ -13,4 +13,9 @@ const readFile = (filename) => {
   }
 };
 
-module.exports = readFile;
+const strToInt = (num) => {
+  const n = Number(num);
+  return isNaN(n) ? 0 : n;
+};
+
+module.exports = { readFile, strToInt };
