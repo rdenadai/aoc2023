@@ -3,6 +3,6 @@
 (executable
  (name parts)
  (modules parts)
- (libraries support))
+ (libraries support str))
 
 (dirs ..)
