@@ -1,6 +1,6 @@
 open Support.Utils
 
-let file = "day01/input.txt"
+let file = "day00/input.txt"
 
 let parse_line (line: string) = 
   String.split_on_char ' ' line
