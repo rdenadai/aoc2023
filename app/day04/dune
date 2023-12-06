@@ -1,8 +1,0 @@
-;; app/day01/dune
-
-(executable
- (name parts)
- (modules parts)
- (libraries support))
-
-(dirs ..)
